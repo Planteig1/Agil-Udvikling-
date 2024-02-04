@@ -1,0 +1,10 @@
+firstName: Rasmus
+age: 21
+hasCar: false
+hobbies:
+  - coding
+  - sleeping
+  - eating
+exampleContactDetails:
+  email: plantmail@hotmail.com
+  phoneNumber: 31123112
