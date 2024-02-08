@@ -1,0 +1,976 @@
+1: create a file called recommend.txt
+
+// Touch recommend.txt
+
+2: echo 'rider abortion evaluate bay excuse' into the file
+
+// Echo "rider abortion evaluate bay excuse" > recommend.txt
+
+3: create a file called architecture.txt and rename it so that it's called salvation.txt instead. Hint: This should be done in 2 commands
+
+// Touch architecture.txt
+// mv architecture.txt salvation.txt
+
+4: output the content of any file in the directory
+
+// Cat recommend.txt - Specific file
+// Cat * - All files
+
+5: delete the last folder you created
+
+// If we know the name of the folder/directory
+// Rmdir <folderName>
+
+6: create a file called needle.txt
+
+// Touch needle.txt
+
+7: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+8: echo 'evaluate regret banish surprise sister' into the file
+
+// Echo "evaluate regret banish surprise sister" > salvation.txt
+
+9: output what's in the directory
+
+// Ls
+
+10: create a file called honor.txt and rename it so that it's called ethics.txt instead. Hint: This should be done in 2 commands
+
+// Touch honor.txt
+// mv honor txt ethics.txt
+
+11: move two folders up
+
+// Cd ../..
+
+12: create a file called shot.txt. Put the text 'on pen panel architecture cousin' in it and copy it so there is also a bay.txt with same content
+
+// Touch shot.txt
+// Echo "on pen panel architecture cousin" > shot.txt
+// Cp shot.txt bay.txt
+
+13: open a file in the terminal and see the content
+
+// Cat <filename>
+
+14: output the content of any file in the directory
+
+// (Already done on question 4)
+// Cat *
+
+15: create two directories excuse and recession and move into recession
+
+//Mkdir excuse
+//Mkdir recession
+//Cd recession
+
+16: echo 'panel evaluate advantage terminal plane' into the file
+
+// echo "panel evaluate advantage terminal plane" > <filename>
+
+17: output who the active user is
+
+//Who
+
+18: delete the last file you created
+
+//Rm <filename>
+
+19: output who the active user is
+
+// Already done on question 17
+//Who
+
+20: create a file called recommend.txt and rename it so that it's called appreciate.txt instead. Hint: This should be done in 2 commands
+
+//Touch recommend.txt
+//Mv recommend.txt appreciate.txt
+
+21: echo 'speculate abortion depression regret support' into the file
+
+//Echo "speculate abortion depression regret support" > appreciate.txt
+
+22: output the sizes of the files in the directory
+
+//ls -l
+// Displayed in the fifth column of the outputted list
+
+
+23: create a file called experienced.txt. Put the text 'advice cousin rider stock plane' in it and copy it so there is also a honor.txt with same content
+
+// Touch experience.txt
+// Echo "advice cousin rider stock plane" > experience.txt
+// Cp experience.txt honor.txt
+
+24: delete the last file you created
+
+// Rm <filename>
+
+25: create a file called shot.txt and rename it so that it's called surprise.txt instead. Hint: This should be done in 2 commands
+
+// Touch shot.txt
+// Mv shot.txt surprise.txt
+
+26: output hidden files
+
+// ls Ls .?*
+
+27: create two directories shallow and identity and move into identity
+
+// Mkdir shallow
+// Mkdir identity
+// Cd identity
+
+28: create a file called abortion.txt. Put the text 'discover nerve rider salvation banish' in it and copy it so there is also a nerve.txt with same content
+
+// Touch abortion.txt
+// Echo "discover nerve rider salvation banish" > abortion.txt
+// Cp abortion.txt nerve.txt
+
+29: delete the last folder you created
+
+// Rmdir <filename>
+
+30: move two folders up
+
+// cd ../../
+
+31: create a file called evaluate.txt and immediately delete it
+
+// Touch evaluate.txt
+// Rm evaluate.txt
+
+32: output the content of any file in the directory
+
+// Cat <filename>
+
+33: output the content of any file in the directory
+
+// Cat <filename>
+
+34: create a directory surprise and move into the directory
+
+// Mkdir surprise
+// Cd surprise
+
+35: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+
+36: create a file called terminal.txt. Put the text 'honor advantage proportion hill stock' in it and copy it so there is also a ethics.txt with same content
+
+// Touch terminal.txt
+// Echo "honor advantage proportion hill stock" > terminal.txt
+// Cp terminal.txt ethics.txt
+
+37: move two folders up
+
+// Cd ../../
+
+38: create a file called surprise.txt and rename it so that it's called discover.txt instead. Hint: This should be done in 2 commands
+
+// Touch surprise.txt
+// mv surprise.txt discover.txt
+
+39: move one level up
+
+// Cd ..
+
+40: create a file called support.txt and rename it so that it's called nerve.txt instead. Hint: This should be done in 2 commands
+
+// Touch support.txt
+// Mv support.txt nerve.txt
+
+41: create a file called responsibility.txt and immediately delete it
+
+// Touch responsibility.txt
+// Rm responsibility.txt
+
+42: move one level up
+
+// Cd ..
+
+43: output the content of any file in the directory
+
+// Cat <filename> / cat *
+
+44: create two directories relative and beat and move into beat
+
+// Mkdir relative
+// Mkdir beat
+// Cd beat
+
+45: create a file called responsibility.txt
+
+// Touch responsivility.txt
+
+46: output who the active user is
+
+// Who
+
+47: output the sizes of the files in the directory
+
+//ls -l
+
+48: output who the active user is
+
+// Who
+
+49: delete the last folder you created
+
+//Rmdir <foldername>
+
+50: echo 'banish experienced evaluate support depression' into the file
+
+// Echo "banish experienced evaluate support depression" > <filename>
+
+51: echo 'nerve shallow pioneer recommend responsibility' into the file
+
+// Echo "nerve shallow pioneer recommend responsibility" > <filename>
+
+52: open a file in the terminal and see the content
+
+// Cat <filename>
+
+53: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+
+54: create a file called on.txt. Put the text 'identity honor sister experienced appreciate' in it and copy it so there is also a advice.txt with same content
+
+// Touch on.txt
+// Echo "identity honor sister experienced appreciate" > on.txt
+// Cp on.txt advice.txt
+
+55: create a file called plane.txt and rename it so that it's called surprise.txt instead. Hint: This should be done in 2 commands
+
+// Touch plane.txt
+// Mv plane.txt surprise.txt
+
+56: create two directories bay and rider and move into rider
+
+// Mkdir bay
+// Mkdir rider
+// Cd rider
+
+57: create a directory support and move into the directory
+
+// Mkdir support
+// Cd support
+
+58: output the content of any file in the directory
+
+// Cat <filename>
+
+59: output what's in the directory
+
+// Ls
+
+60: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+
+61: create a directory banish and move into the directory
+
+//Mkdir banish
+// Cd banish
+
+62: create two directories relative and relative and move into relative
+
+//Mkdir relative
+//Mkdir relative
+// Cd relative
+
+?????
+
+63: delete the last file you created
+
+// Rm <filename>
+
+64: output the content of any file in the directory
+
+// Cat <filename> / Cat *
+
+65: create a file called recommend.txt and immediately delete it
+
+// Touch recommend.txt
+// Rm recommend.txt
+
+66: move two folders up
+
+// Cd ../../
+
+67: create a file called excuse.txt and immediately delete it
+
+// Touch Excuse.txt
+// rm Excuse.txt
+
+68: write something in a file called pioneer.txt
+
+// Echo "<Text>" > pioneer.txt
+// OR
+// Nano pioneer.txt
+
+69: open a file in the terminal and see the content
+
+// Cat <filename>
+
+70: echo 'beat cater plane ethics pray' into the file
+
+// Echo "beat cater plane ethics pray" > <filename>
+
+71: output the full path you are on
+
+// Pwd
+
+72: delete the last file you created
+
+// Rm <filename>
+
+73: create a file called shallow.txt
+
+// TOuch shallow.txt
+
+74: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+75: write something in a file called salvation.txt
+
+// Echo "<Text>" > salvation.txt
+// OR
+// Nano salvation.txt - Do it in the editor
+
+76: output the content of any file in the directory
+
+// Cat <filename> / Cat *
+
+77: create a file called relative.txt. Put the text 'surprise surprise beat cousin regret' in it and copy it so there is also a appreciate.txt with same content
+
+// Touch relative.txt
+// Echo "surprise surprise beat cousin regret"
+// Cp relative.txt appreciate.txt
+
+78: output the content of any file in the directory
+
+// Cat <filename> / Cat *
+
+79: create a file called ditch.txt and rename it so that it's called ethics.txt instead. Hint: This should be done in 2 commands
+
+// Touch ditch.txt
+// Mv ditch.txt ethics.txt
+
+80: open a file in the terminal and see the content
+
+// Cat <filename>
+
+81: open a file in the terminal and see the content
+
+// Cat <filename>
+
+82: move two folders up
+
+// Cd ../../
+
+83: output what's in the directory
+
+// Ls
+
+84: move one level up
+
+// Cd ..
+
+85: create two directories advice and shallow and move into shallow
+
+// Mkdir advice
+// Mkdir shallow
+// cd shallow
+
+86: delete the last folder you created
+
+// rmdir <filename>
+
+
+87: output the sizes of the files in the directory
+
+// Ls -l
+
+88: delete the last file you created
+
+// rm <filename>
+
+89: output the content of any file in the directory
+
+// Cat <filename> / Cat *
+
+90: echo 'experienced shallow rider medal discover' into the file
+
+// Echo "experienced shallow rider medal discover" > <filename>
+
+91: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+92: move two folders up
+
+// Cd ../../
+
+93: create two directories relative and on and move into on
+
+// Mkdir relative
+// Mkdir on
+// cd on
+
+94: create a file called rider.txt
+
+// Touch rider.txt
+
+95: delete the last folder you created
+
+// If we know the name of the folder/directory
+// Rmdir <folderName>
+
+96: create a file called ethics.txt and rename it so that it's called cousin.txt instead. Hint: This should be done in 2 commands
+
+// Touch ethics.txt
+// mv ethics.txt cousin.txt
+
+97: output the content of any file in the directory
+
+// Cat <filename> / Cat *
+
+98: output the full path you are on
+
+// Pwd
+
+99: create a file called medal.txt and rename it so that it's called surprise.txt instead. Hint: This should be done in 2 commands
+
+// Touch medal.txt
+// Mv medal.txt surprise.txt
+
+100: move two folders up
+
+// Cd ../../
+
+101: create two directories correspondence and ethics and move into ethics
+
+//Mkdir correspondence
+//Mkdir ethics
+// Cd ethics
+
+102: echo 'appreciate evaluate speculate excuse pen' into the file
+
+// Echo "appreciate evaluate speculate excuse pen" > <filename>
+
+103: output who the active user is
+
+// Who
+
+104: delete the last folder you created
+
+// If we know the name of the folder/directory
+// Rmdir <folderName>
+
+105: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+106: create a file called depression.txt
+
+//Touch depression.txt
+
+107: create a file called rain.txt. Put the text 'recommend on pray banish hill' in it and copy it so there is also a excuse.txt with same content
+
+//Touch rain.txt
+// Echo "recommend on pray banish hill" > rain.txt
+// Cp rain.txt excuse.txt
+
+108: move one level up
+
+// Cd ..
+
+109: create a file called evaluate.txt and rename it so that it's called rider.txt instead. Hint: This should be done in 2 commands
+
+// Touch evaluate.txt
+// Mv evaluate.txt rider.txt
+
+110: create a file called on.txt
+
+//Touch on.txt
+
+111: create a file called rider.txt. Put the text 'rider cater hill ethics terminal' in it and copy it so there is also a shot.txt with same content
+
+//Touch rider.txt
+// Echo "rider cater hill ethics terminal" > rider.txt
+// Cp rider.txt shot.txt
+
+112: create a file called plane.txt
+
+//Touch plane.txt
+
+113: delete the last file you created
+
+// rm <filename>
+
+
+114: move one level up
+
+// Cd ..
+
+115: create two directories interference and ethics and move into ethics
+
+//Mkdir interference
+//Mkdir ethics
+// Cd ethics
+
+116: output the content of any file in the directory
+
+// Cat <filename> / Cat *
+
+117: create a file called nerve.txt and rename it so that it's called recommend.txt instead. Hint: This should be done in 2 commands
+
+// Touch nerve.txt
+// Mv nerve.txt recommend.txt
+
+118: write something in a file called ethics.txt
+
+// Echo "<Text>" > ethics.txt
+// OR
+// Nano ethics.txt - Do it in the editor
+
+
+119: move one level up
+
+// Cd ..
+
+120: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+121: open a file in the terminal and see the content
+
+// Cat <filename>
+
+
+122: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+123: create a directory advantage and move into the directory
+
+// Mkdir advantage
+// Cd advantage
+
+124: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+125: create two directories recession and nerve and move into nerve
+
+//Mkdir recession
+//Mkdir nerve
+// Cd nerve
+
+126: create a file called correspondence.txt. Put the text 'honor depression experienced sister identity' in it and copy it so there is also a needle.txt with same content
+
+//Touch correspondence.txt
+// Echo "honor depression experienced sister identity" > correspondence.txt
+
+127: delete the last folder you created
+
+// If we know the name of the folder/directory
+// Rmdir <folderName>
+
+128: delete the last file you created
+
+// rm <filename>
+
+129: move one level up
+
+// Cd ..
+
+130: create a file called pray.txt
+
+//Touch pray.txt
+
+131: delete the last file you created
+
+// rm <filename>
+
+132: create two directories on and pioneer and move into pioneer
+
+//Mkdir on
+//Mkdir pioneer
+// Cd pioneer
+
+133: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+134: delete the last file you created
+
+// rm <filename>
+
+135: move two folders up
+
+// Cd ../../
+
+136: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+137: move two folders up
+
+// Cd ../../
+
+138: create a directory appreciate and move into the directory
+
+//Mkdir appreciate
+//Cd appreciate
+
+139: create a file called sister.txt. Put the text 'recession cousin recession nerve shot' in it and copy it so there is also a rider.txt with same content
+//Touch sister.txt
+// Echo "recession cousin recession nerve shot" > Sister.txt
+// cp sister.txt rider.txt
+
+140: output the sizes of the files in the directory
+
+// Ls -l
+
+141: output who the active user is
+
+// Who
+
+142: create a file called surprise.txt and immediately delete it
+
+//Touch surprise.txt
+// Rm surprise.txt
+
+143: open a file in the terminal and see the content
+
+// Cat <filename>
+
+144: delete the last file you created
+
+// rm <filename>
+
+145: output the sizes of the files in the directory
+
+// Ls -l
+
+146: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+147: create a file called advantage.txt and immediately delete it
+
+// Touch advantage.txt
+// Rm advantage.txt
+
+148: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+149: output the content of any file in the directory
+
+// Cat <filename> / Cat *
+
+150: write something in a file called panel.txt
+
+// Echo "<Text>" > panel.txt
+// OR
+// Nano panel.txt - Do it in the editor
+
+151: output the content of any file in the directory
+
+// Cat <filename> / Cat *
+
+152: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+153: open a file in the terminal and see the content
+
+// Cat <filename>
+
+154: delete the last folder you created
+
+// If we know the name of the folder/directory
+// Rmdir <folderName>
+
+155: create two directories rain and panel and move into panel
+
+//Mkdir rain
+//Mkdir panel
+// Cd panel
+
+156: output the sizes of the files in the directory
+
+// Ls -l
+
+157: delete the last folder you created
+
+// If we know the name of the folder/directory
+// Rmdir <folderName>
+
+158: output what's in the directory
+
+// ls
+
+159: create two directories relative and rider and move into rider
+//Mkdir relative
+//Mkdir rider
+// cd rider
+
+160: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+161: output what's in the directory
+// ls
+
+162: move two folders up
+
+// Cd ../../
+
+163: create a file called pioneer.txt and rename it so that it's called banish.txt instead. Hint: This should be done in 2 commands
+
+//Touch pioneer.txt
+//Mv pioneer.txt banish.txt
+
+164: create a file called shot.txt and immediately delete it
+
+//Touch shot.txt
+//Rm shot.txt
+
+165: delete the last folder you created
+
+// If we know the name of the folder/directory
+// Rmdir <folderName>
+
+166: delete the last file you created
+
+// rm <filename>
+
+167: move one level up
+
+// Cd ..
+
+168: create a file called plane.txt
+
+//Touch plante.txt
+
+169: create a file called stock.txt and rename it so that it's called identity.txt instead. Hint: This should be done in 2 commands
+
+//Touch stock.txt
+//mv stock.txt identity.txt
+
+170: move two folders up
+
+// Cd ../../
+
+171: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+172: echo 'banish proportion stock shallow needle' into the file
+
+//Echo "banish proportion stock shallow needle" > <filename>
+
+173: delete the last file you created
+
+// rm <filename>
+
+174: create a file called stock.txt
+
+//Touch stock.txt
+
+175: create a file called support.txt and immediately delete it
+
+//Touch support.txt
+// Rm support.txt
+
+176: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+177: create a file called interference.txt and rename it so that it's called degree.txt instead. Hint: This should be done in 2 commands
+
+//Touch interference.txt
+//mv interference.txt degree.txt
+
+178: move two folders up
+
+// Cd ../../
+
+179: output the sizes of the files in the directory
+
+// Ls -l
+
+180: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+181: echo 'terminal salvation cousin correspondence medal' into the file
+
+// Echo "terminal salvation cousin correspondence medal" > <filename>
+
+182: output the content of any file in the directory
+
+// Cat <filename> / Cat *
+
+183: open a file in the terminal and see the content
+
+// Cat <filename>
+
+184: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+185: write something in a file called shot.txt
+
+// Echo "<Text>" > shot.txt
+// OR
+// Nano shot.txt - Do it in the editor
+
+186: output the sizes of the files in the directory
+
+// Ls -l
+
+187: create a file called appreciate.txt and rename it so that it's called rain.txt instead. Hint: This should be done in 2 commands
+
+//Touch appreciate.txt
+//Mv appreciate.txt rain.txt
+
+188: output hidden files
+
+// Ls .?*
+// Can Also be done with ls -A (Also shows non-hidden files)
+
+
+189: if there are any directories in the folder then move inside any one of them
+
+// Taken from stackOverflow?
+// cd "$(ls -d */ | head -n 1)"
+
+// My own solution - Multiple steps
+// ls - Check to see the list of directories/files
+// Cd <filename> - Go into specified directory
+
+190: move two folders up
+
+// Cd ../../
+
+191: create two directories banish and surprise and move into surprise
+
+//Mkdir banish
+//Mkdir surprise
+//Cd surprise
+
+192: output the full path you are on
+
+//Pwd
+
+193: create a file called responsibility.txt and immediately delete it
+
+//Touch responsibility.txt
+//rm responsibility.txt
+
+194: open a file in the terminal and see the content
+
+// Cat <filename>
+
+195: open a file in the terminal and see the content
+
+// Cat <filename>
+
+196: create a file called hill.txt
+
+// Touch hill.txt
+
+197: output who the active user is
+
+// Who
+
+198: create a file called pray.txt
+
+// Touch pray.txt
+
+199: echo 'identity responsibility salvation panel depression' into the file
+
+// Echo "identity responsibility salvation panel depression" > <filename>
+
+200: move one level up
+
+// Cd ..
